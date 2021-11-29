@@ -1,0 +1,109 @@
+V "GNAT Lib v21"
+A -gnatA
+A -g
+A -g
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_ALLOCATORS
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_DEALLOCATION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U generic_stack%b	generic_stack.adb	29e7c4fa NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U generic_stack%s	generic_stack.ads	0dc038b6 BN EE NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.unchecked_deallocation%s
+
+D ada.ads		20210112072706 76789da1 ada%s
+D a-except.ads		20210112072706 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20210112072706 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210112072706 119b8fb3 ada.streams%s
+D a-tags.ads		20210112072706 9eaa38c6 ada.tags%s
+D a-textio.ads		20210112072706 aef4d56d ada.text_io%s
+D a-unccon.ads		20210112072706 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210112072706 eff36322 ada.unchecked_deallocation%s
+D generic_stack.ads	20211129153642 e2335b94 generic_stack%s
+D generic_stack.adb	20211129153654 65204a03 generic_stack%b
+D interfac.ads		20210112072706 edec285f interfaces%s
+D i-cstrea.ads		20210112072706 e53d8b8e interfaces.c_streams%s
+D system.ads		20210112072706 d609aa73 system%s
+D s-crtl.ads		20210112072706 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210112072706 54135002 system.exception_table%s
+D s-ficobl.ads		20210112072706 078245e4 system.file_control_block%s
+D s-parame.ads		20210112072706 4752c4cb system.parameters%s
+D s-secsta.ads		20210112072706 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210112072706 a7318a92 system.soft_links%s
+D s-stache.ads		20210112072706 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210112072706 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210112072706 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210112072706 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210112072706 26a8d361 system.traceback_entries%s
+D s-wchcon.ads		20210112072706 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [generic_stack standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 9|1r6 26r31 10|1r6 16r7 17r7 19r7 25r7 32r7 40r7 48r7 55r7
+. 63r7
+X 6 a-textio.ads
+58K13*Text_IO 728e16 10|1w10 16r11 17r11 19r11 25r11 32r11 40r11 48r11 55r11
+. 63r11
+509U14*Put_Line 10|16s19 17s19 19s19 25s19 32s19 40s19 48s19 55s19 63s19
+X 8 a-uncdea.ads
+20u15*Unchecked_Deallocation 9|1w10 26r35
+X 9 generic_stack.ads
+4+9 Element_Type 7r48 8r43 9r48 10r36 23r15 10|5r48 21r47 43r43 45r16 73r36
+5k9*Generic_Stack 4z9 18E4 27l5 27e18 10|3b14 111l5 111t18
+6P9*Stack 7r31 8r29 9r30 10r22 11r24 12r23 13r29 14r24 15r24 20c9 24r15 26r65
+. 10|5r31 21r29 22r16 43r29 44r16 68r24 73r22 74r16 82r23 83r13 90r29 91r17
+. 100r24 106r24
+7U14*Push 7=20 7>38 10|5b14 20l8 20t12
+7p20 S{6P9} 10|5b20 9r10 10r26 11r22 18m7 18r45
+7*38 Item{4+9} 10|5b38 18r31
+8V13*Pop{4+9} 8=18 10|43b13 66l8 66t11
+8p18 S{6P9} 10|43b18 44r25 57m7 58r10 59r26
+9U14*Pop 9=19 9<37 10|21b14 42l8 42t11
+9p19 S{6P9} 10|21b18 22r25 34m7 35r10 36r26
+9*37 Item{4+9} 10|21b36 33m7
+10V13*Top{4+9} 10>18 10|73b13 80l8 80t11
+10p18 S{6P9} 10|73b18 74r25
+11V13*IsEmpty{boolean} 11>21 10|68b13 71l8 71t15
+11p21 S{6P9} 10|68b21 70r14
+12V13*Length{natural} 12>20 10|82b13 89l8 89t14
+12p20 S{6P9} 10|82b20 83r22
+13U14*Clear 13<21 10|90b14 99l8 99t13
+13p21 S{6P9} 10|90b21 93r13 94r21 96m10 96r21
+14V13*SetName{boolean} 14>21 14>31 10|100b13 104l8 104t15
+14p21 S{6P9} 10|100b21
+14a31 Name{string} 10|100b31 102r17
+15V13*GetName{string} 15>21 10|106b13 109l8 109t15
+15p21 S{6P9} 10|106b21
+16X4*Empty_Stack 10|28r16 51r16 77r16
+18a4 MyName{string} 10|102m7 108r14
+19R9 Node 20r25 21c9 25e14 26r59 10|18r16
+22i7 Index{positive} 10|10r28 11r24 18m48 30r31 36r28 53r31 59r28 88r19
+23*7 Value{4+9} 10|18m22 33r20 56r22 79r19
+24p7 Next{6P9} 10|18m37 34r22 57r22 96r23
+26U14 Free_Node[8|20] 10|41s7 64s7 97s10
+X 10 generic_stack.adb
+6i7 NewIndex{positive} 11m10 14m10 18r57 19r63
+7i7 CurrentIndex{natural} 10m10 13m10 17r63
+22p7 Head{9|6P9} 26r10 30r26 33r15 34r17 41m18 41r18
+23i7 CurrentIndex{natural} 27m10 30m10 32r63 36m10 38m10 40r63
+44p7 Head{9|6P9} 49r10 53r26 56r17 57r17 64m18 64r18
+45*7 Result{9|4+9} 56m7 65r14
+46i7 CurrentIndex{natural} 50m10 53m10 55r63 59m10 61m10 63r63
+74p7 Head{9|6P9} 76r10 79r14
+83p4 Head{9|6P9} 85r10 88r14
+91p7 Current{9|6P9} 94m10 97m21 97r21
+

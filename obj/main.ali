@@ -1,0 +1,57 @@
+V "GNAT Lib v21"
+M P W=b
+A -gnatA
+A -g
+A -g
+A -mtune=generic
+A -march=pentium4
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		264c7048 NE OO SU
+W cardgames%s		cardgames.adb		cardgames.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20210112072706 76789da1 ada%s
+D a-except.ads		20210112072706 449c9b65 ada.exceptions%s
+D a-ioexce.ads		20210112072706 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20210112072706 119b8fb3 ada.streams%s
+D a-tags.ads		20210112072706 9eaa38c6 ada.tags%s
+D a-textio.ads		20210112072706 aef4d56d ada.text_io%s
+D a-unccon.ads		20210112072706 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210112072706 eff36322 ada.unchecked_deallocation%s
+D cardgames.ads		20211129164258 233bffa1 cardgames%s
+D generic_stack.ads	20211129163936 c90a96f0 generic_stack%s
+D interfac.ads		20210112072706 edec285f interfaces%s
+D i-cstrea.ads		20210112072706 e53d8b8e interfaces.c_streams%s
+D main.adb		20211124145532 24c54771 main%b
+D system.ads		20210112072706 d609aa73 system%s
+D s-crtl.ads		20210112072706 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210112072706 54135002 system.exception_table%s
+D s-ficobl.ads		20210112072706 078245e4 system.file_control_block%s
+D s-parame.ads		20210112072706 4752c4cb system.parameters%s
+D s-secsta.ads		20210112072706 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210112072706 a7318a92 system.soft_links%s
+D s-stache.ads		20210112072706 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210112072706 0f2d51ff system.standard_library%s
+D s-stoele.ads		20210112072706 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210112072706 ed88f8fb system.storage_elements%b
+D s-traent.ads		20210112072706 26a8d361 system.traceback_entries%s
+D s-wchcon.ads		20210112072706 1b7d22d2 system.wch_con%s
+D text_io.ads		20210112072706 21b2c898 text_io%s
+G a e
+G c Z b b [main standard 3 11 none]
+G r c none [main standard 3 11 none] [playpoker cardgames 75 14 none]
+X 9 cardgames.ads
+3K9*CardGames 124e14 13|2w6 2r21
+75U14*PlayPoker 13|10s4
+X 13 main.adb
+3U11*Main 3b11 13l5 13t9
+4i4 PlayerCount{positive} 8m4 10r14
+5i4 HandCount{positive} 9m4 10r26
+X 27 text_io.ads
+24K9*Text_IO=24:29 13|1w6 1r19
+

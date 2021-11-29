@@ -1,0 +1,16 @@
+   generic
+      Max: Positive;
+      type Element_Type is private;
+package gen_stack is
+   type Stack is private;
+   procedure Push (S : in out Stack; Item : in Element_Type);
+   function Pop (S : in out Stack) return Element_Type;
+   procedure Pop (S : in out Stack; Item : out Element_Type);
+   function Top (S : Stack) return Element_Type;
+   function IsEmpty(S: Stack) return Boolean;
+   function Length(S: Stack) return Natural;
+   procedure Clear (S : out Stack);
+   Empty_Stack : exception;
+   
+
+end gen_stack;

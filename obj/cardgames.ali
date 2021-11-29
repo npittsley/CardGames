@@ -1,0 +1,635 @@
+V "GNAT Lib v21"
+A -gnatA
+A -g
+A -g
+A -mtune=generic
+A -march=pentium4
+P SS ZX
+
+RN
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RELATIVE_DELAY
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+
+U cardgames%b		cardgames.adb		1fecfc9a NE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.discrete_random%s
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z generic_stack%s	generic_stack.adb	generic_stack.ali  ED
+W system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.concat_5%s	s-conca5.adb		s-conca5.ali
+Z system.img_bool%s	s-imgboo.adb		s-imgboo.ali
+Z system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.random_numbers%s  s-rannum.adb		s-rannum.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.val_int%s	s-valint.ads		s-valint.ali
+
+U cardgames%s		cardgames.ads		2fdd7ee7 EE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+Z ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W generic_stack%s	generic_stack.adb	generic_stack.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.img_int%s	s-imgint.ads		s-imgint.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20210112072706 76789da1 ada%s
+D a-calend.ads		20210112072706 474d9720 ada.calendar%s
+D a-caldel.ads		20210112072706 9f20b83d ada.calendar.delays%s
+D a-charac.ads		20210112072706 2d3ec45b ada.characters%s
+D a-chlat1.ads		20210112072706 66457d31 ada.characters.latin_1%s
+D a-except.ads		20210112072706 449c9b65 ada.exceptions%s
+D a-finali.ads		20210112072706 bf4f806b ada.finalization%s
+D a-inteio.ads		20210112072706 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210112072706 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210112072706 84bea7a3 ada.numerics%s
+D a-nudira.ads		20210112072706 5984dff3 ada.numerics.discrete_random%s
+D a-nudira.adb		20210112072706 0bfd6ec4 ada.numerics.discrete_random%b
+D a-stream.ads		20210112072706 119b8fb3 ada.streams%s
+D a-string.ads		20210112072706 90ac6797 ada.strings%s
+D a-strmap.ads		20210112072706 e8bb714a ada.strings.maps%s
+D a-stteou.ads		20210112072706 e7ab1e2a ada.strings.text_output%s
+D a-stouut.ads		20210112072706 d02be5b1 ada.strings.text_output.utils%s
+D a-strunb.ads		20210112072706 c56ac521 ada.strings.unbounded%s
+D a-stuten.ads		20210112072706 808c40ad ada.strings.utf_encoding%s
+D a-suezst.ads		20210112072706 1161e3f6 ada.strings.utf_encoding.wide_wide_strings%s
+D a-tags.ads		20210112072706 9eaa38c6 ada.tags%s
+D a-textio.ads		20210112072706 aef4d56d ada.text_io%s
+D a-tiinio.ads		20210112072706 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210112072706 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20210112072706 eff36322 ada.unchecked_deallocation%s
+D cardgames.ads		20211129153624 cdee2573 cardgames%s
+D cardgames.adb		20211129152938 16539ff2 cardgames%b
+D generic_stack.ads	20211129153642 e2335b94 generic_stack%s
+D generic_stack.adb	20211129153654 65204a03 generic_stack%b
+D interfac.ads		20210112072706 edec285f interfaces%s
+D i-cstrea.ads		20210112072706 e53d8b8e interfaces.c_streams%s
+D system.ads		20210112072706 d609aa73 system%s
+D s-atocou.ads		20210112072706 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20210112072706 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20210112072706 0b705ca5 system.concat_3%s
+D s-conca4.ads		20210112072706 7e642b20 system.concat_4%s
+D s-conca5.ads		20210112072706 875e432e system.concat_5%s
+D s-crtl.ads		20210112072706 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210112072706 54135002 system.exception_table%s
+D s-ficobl.ads		20210112072706 078245e4 system.file_control_block%s
+D s-finroo.ads		20210112072706 4ff27390 system.finalization_root%s
+D s-imagei.ads		20210112072706 0d3f86a7 system.image_i%s
+D s-imageu.ads		20210112072706 525c30c6 system.image_u%s
+D s-imgboo.ads		20210112072706 f5d971eb system.img_bool%s
+D s-imenne.ads		20210112072706 614c06c0 system.img_enum_new%s
+D s-imgint.ads		20210112072706 bdb6f5ec system.img_int%s
+D s-imguns.ads		20210112072706 0e4da2ac system.img_uns%s
+D s-memory.ads		20210112072706 597d6634 system.memory%s
+D s-parame.ads		20210112072706 4752c4cb system.parameters%s
+D s-rannum.ads		20210112072706 60650134 system.random_numbers%s
+D s-rannum.adb		20210112072706 e739d764 system.random_numbers%b
+D s-ransee.ads		20210112072706 01a57b33 system.random_seed%s
+D s-secsta.ads		20210112072706 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210112072706 a7318a92 system.soft_links%s
+D s-stache.ads		20210112072706 a37c21ec system.stack_checking%s
+D s-stalib.ads		20210112072706 0f2d51ff system.standard_library%s
+D s-stalib.adb		20210112072706 977290bf system.standard_library%b
+D s-stoele.ads		20210112072706 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210112072706 ed88f8fb system.storage_elements%b
+D s-stratt.ads		20210112072706 7bdda3fa system.stream_attributes%s
+D s-traent.ads		20210112072706 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210112072706 eea7525d system.unsigned_types%s
+D s-valint.ads		20210112072706 e7fcadb7 system.val_int%s
+D s-valuns.ads		20210112072706 dac7b45d system.val_uns%s
+D s-valuei.ads		20210112072706 978dd0a6 system.value_i%s
+D s-valueu.ads		20210112072706 7b8fccf5 system.value_u%s
+D s-wchcon.ads		20210112072706 1b7d22d2 system.wch_con%s
+D unchconv.ads		20210112072706 ca2f9e18 unchecked_conversion%s
+G a e
+G c s s s [s cardgames 3 1 none]
+G c Z s s [card_tIP cardgames 8 9 none]
+G c Z s s [push cardgames__cardstack 7 14 13_4]
+G c Z s s [pop cardgames__cardstack 8 13 13_4]
+G c Z s s [pop cardgames__cardstack 9 14 13_4]
+G c Z s s [top cardgames__cardstack 10 13 13_4]
+G c Z s s [isempty cardgames__cardstack 11 13 13_4]
+G c Z s s [length cardgames__cardstack 12 13 13_4]
+G c Z s s [clear cardgames__cardstack 13 14 13_4]
+G c Z s s [setname cardgames__cardstack 14 13 13_4]
+G c Z s s [getname cardgames__cardstack 15 13 13_4]
+G c Z s s [nodeIP cardgames__cardstack 21 9 13_4]
+G c Z s s [free_node cardgames__cardstack 26 14 13_4]
+G c Z s b [get_random cardgames 54 13 none]
+G c Z s b [create_deck cardgames 55 13 none]
+G c Z s b [shuffledeck cardgames 56 14 none]
+G c Z s b [shuffle cardgames 57 14 none]
+G c Z s b [reshuffle cardgames 58 14 none]
+G c Z s b [getnewdeck cardgames 60 13 none]
+G c Z s b [stackdeck cardgames 62 13 none]
+G c Z s b [stackasarray cardgames 63 13 none]
+G c Z s b [reversestack cardgames 64 14 none]
+G c Z s b [deal cardgames 67 13 none]
+G c Z s b [teststack cardgames 69 14 none]
+G c Z s b [playpoker cardgames 70 14 none]
+G c Z s b [draw cardgames 71 14 none]
+G c Z s b [discard cardgames 72 14 none]
+G c Z s b [chooseanddiscard cardgames 73 14 none]
+G c Z s b [handleoptionsevent cardgames 75 13 none]
+G c Z s b [handlebetevent cardgames 76 13 none]
+G c Z s b [handleraiseevent cardgames 77 13 none]
+G c Z s b [handledrawevent cardgames 78 14 none]
+G c Z s b [getplayerchoice cardgames 80 13 none]
+G c Z s b [getrobochoice cardgames 81 13 none]
+G c Z s b [getplayerbet cardgames 82 13 none]
+G c Z s b [getrobobet cardgames 83 13 none]
+G c Z s b [getplayerraise cardgames 84 13 none]
+G c Z s b [getroboraise cardgames 85 13 none]
+G c Z s b [robodiscard cardgames 87 14 none]
+G c Z s b [getrobochosendiscard cardgames 88 13 none]
+G c Z s b [getnewhandreview cardgames 91 13 none]
+G c Z s b [inspecthand cardgames 92 14 none]
+G c Z s b [inspecthandsuits cardgames 93 14 none]
+G c Z s b [inspecthandfacevalues cardgames 94 14 none]
+G c Z s b [hasaceinhand cardgames 96 13 none]
+G c Z s b [markhighcard cardgames 97 14 none]
+G c Z s b [hasxofakind cardgames 98 14 none]
+G c Z s b [hasfullhouseorpossible cardgames 99 14 none]
+G c Z s b [hasflushorpossible cardgames 100 14 none]
+G c Z s b [hasstraightorpossible cardgames 101 14 none]
+G c Z s b [hasstraightflushorroyalflush cardgames 102 14 none]
+G c Z s b [displayplayerhand cardgames 104 14 none]
+G c Z s b [endgame cardgames 105 14 none]
+G c Z s b [getsuitassymbol cardgames 107 13 none]
+G c Z s b [getvalueascardvalue cardgames 108 13 none]
+G c Z s b [printsummary cardgames 109 14 none]
+G c Z s b [print cardgames 110 14 none]
+G c Z s b [print cardgames 111 14 none]
+G c Z s b [print cardgames 112 14 none]
+G c Z s b [printcardrow cardgames 113 14 none]
+G c Z s b [print cardgames 114 14 none]
+G c Z s b [getsuitname cardgames 115 13 none]
+G c Z s s [deck_tIP cardgames 17 9 none]
+G c Z s s [player_hands_tIP cardgames 19 9 none]
+G c Z s s [Tsuitreview_tBIP cardgames 20 4 none]
+G c Z s s [Tfacevaluereview_tBIP cardgames 21 4 none]
+G c Z s s [handreview_tIP cardgames 22 9 none]
+G c Z s s [player_tIP cardgames 46 9 none]
+G r i none [s cardgames 3 1 none] [generic_stack standard 5 9 none]
+X 1 ada.ads
+16K9*Ada 20e8 27|1r6 1r33 2r6 2r33 3r6 4r6 4r33 693r10 694r10 732r7 769r7
+. 776r24
+X 8 a-inteio.ads
+18K13*Integer_Text_IO[23|46] 27|2w10 2r37 732r11
+X 10 a-numeri.ads
+16K13*Numerics 35e17 27|3r10 776r28
+X 11 a-nudira.ads
+44k22*Discrete_Random 81e33 27|3w19 776r37
+50R9 Generator<50|65R9> 27|779r11[776]
+52V13 Random{integer} 27|783s12[776]
+61U14 Reset<50|103p14> 27|782s7[776]
+X 12 a-nudira.adb
+53V16 Random[50|86]{integer} 51|400b13[27|776]
+65V16 Random[50|86]{integer} 51|400b13[27|776]
+X 14 a-string.ads
+16K13*Strings 35e16 27|4r10 4r37
+X 18 a-strunb.ads
+83K21*Unbounded 762e26 27|4w18 4r45
+88R9*Unbounded_String<7|43R9> 742e15 27|806r15 985r14
+104V13*To_Unbounded_String{88R9} 27|810s22 812s22 814s22 816s22 818s22 989s21
+. 991s21 993s21 995s21 997s21
+117V13*To_String{string} 27|820s14 999s14
+X 22 a-textio.ads
+58K13*Text_IO 728e16 27|1w10 1r37 693r14 694r14 769r11
+265U14*New_Line 27|935s10 937s7 955s7 964s7 973s7
+382U14*Get 27|648s13 694s22
+466U14*Put 27|647s13 693s22 731s7 747s7 847s10 849s10 910s22 912s22 915s19
+. 921s22 923s22 925s19 927s19
+509U14*Put_Line 27|42s7 208s7 212s7 295s13 299s10 301s10 327s7 328s7 331s10
+. 336s13 339s13 654s19 658s22 664s22 740s7 756s7 769s19 828s10 837s7 838s7
+. 839s7 840s7 841s7 851s7 858s10 878s13 942s7 944s7 947s7 951s7 956s7 957s7
+. 959s7 962s7 965s7 966s7 968s7 970s7 972s7 974s7 977s7 978s7 980s7 981s7
+X 23 a-tiinio.ads
+59U14*Get 27|732s27[8|18] 748s7[8|18]
+X 26 cardgames.ads
+3K9*CardGames 119l5 119e14 27|6b14 68r21 1002l5 1002t14
+5E9*Game_T 5e80 55r32 60r30 67r24 27|68r31 153r33 254r32 264r14
+5n20*Solitaire{5E9}
+5n31*War{5E9}
+5n36*GoFish{5E9}
+5n44*Poker{5E9} 27|20r35 90r21
+5n51*Spades{5E9}
+5n59*Gin{5E9}
+5n64*Rummy{5E9}
+5n71*GinRummy{5E9}
+6E9*Suit_T 6e52 9r14 27|164r24 852r48 880r22 946r10
+6n20*Spades{6E9} 27|527r18 791r15
+6n28*Diamonds{6E9} 27|529r18 797r15
+6n38*Clubs{6E9} 27|531r18 795r15
+6n45*Hearts{6E9} 27|533r18 793r15
+7E9*GameChoice_T 7e70 75r97 80r68 81r58 27|82r33 596r14 598r16 684r70 688r20
+. 716r61 717r20
+7n26*Pass{7E9} 27|113r21 705r26 723r21
+7n32*Bet{7E9} 27|115r21 697r26
+7n37*RaiseBet{7E9} 27|115r27 707r26
+7n47*Draw{7E9} 27|138r21 701r26
+7n53*Call{7E9} 27|130r21 699r26
+7n59*Fold{7E9} 27|136r21 703r26
+7n65*Quit{7E9} 27|110r21 709r26
+8R9*Card_T 11e14 13r59 17r47 25r18 73r38 107r36 108r40 110r27 27|14r18 156r20
+. 176r19 188r18 218r19 229r27 243r19 269r22 287r19 322r24 351r39 787r37 805r41
+. 843r28
+9e7*Suit{6E9} 27|166m35 526r20 790r17 852r67 880r41 946r44
+10i7*Value{integer} 27|166m54 370r18 384r18 384r46 503r30 503r63 578r56 579r58
+. 808r17 818r63 852r30 879r71 919r57 945r61
+13K12*CardStack[28|5] 14r8 16r28 27|8r28 9r28
+16P9*CardStack_T<28|6P9[13]> 19r56 49r14 57r41 58r38 58r71 60r45 62r45 63r38
+. 64r46 67r44 71r33 71r68 71r102 72r62 72r97 73r66 75r53 76r40 77r42 78r44
+. 78r79 78r113 80r48 81r38 82r39 83r37 84r41 85r39 87r45 87r80 88r47 92r41
+. 93r46 94r51 96r40 97r42 104r52 112r41 113r38 27|10r16 11r16 13r18 69r21
+. 70r21 72r21 187r42 204r21 204r55 216r46 217r19 226r39 228r27 240r46 241r18
+. 254r47 256r18 264r36 283r28 283r63 284r28 307r27 307r62 319r49 320r29 323r24
+. 351r68 364r41 378r22 507r22 519r22 568r22 595r28 609r20 621r20 633r32 633r67
+. 634r32 684r50 716r41 727r40 735r38 743r42 751r40 759r48 823r53 855r19 865r42
+. 869r20 870r22 900r39
+17A9*Deck_T(8R9)<integer> 55r47 56r40 62r30 63r58 27|153r48 154r20 174r41
+. 190r23 216r31 226r59 227r27 255r18 366r19 380r19 521r20 570r19 866r20 902r23
+19A9*Player_Hands_T(16P9)<integer> 67r111 105r36 111r34 27|71r21 265r43 267r22
+. 766r38 854r35
+20A9*SuitReview_T(integer)<integer> 23r19 27|522r20
+21A9*FaceValueReview_T(integer)<integer> 24r24 27|443r29
+22R9*HandReview_T 45e14 50r20 91r37 92r74 93r79 94r84 97r75 98r46 99r57 100r53
+. 101r56 102r63 114r33 27|358r37 359r20 378r55 389r47 417r58 441r57 485r54
+. 497r64 507r55 519r55 568r55 718r20 940r34
+23a7*SuitReview{20A9} 27|565m18
+24a7*FaceValueReview{21A9} 27|423r31 424r30 431r34 432r33 447r20 447r53 449r20
+. 449r48 453r31 578m21 579r23 582r31 583r24 587r26
+25r7*HighCard{8R9} 27|384r37 385m24 503r21 503r54 945r52 946r35
+26i7*Most_Prevalent_Value{integer} 27|588m24 950r36
+27i7*Most_Prevalent_Value_Count{integer} 27|392r23 584r23 586m24 949r36
+28i7*Most_Prevalent_Suit{integer} 27|543m24 954r34
+29i7*Most_Prevalent_Suit_Count{integer} 27|488r23 541r46 542m24 953r36
+30b7*HasTwoOfAKind{boolean} 27|394m24 396m24 399m24 956r64
+31b7*HasThreeOfAKind{boolean} 27|397m24 400m24 958r59
+32b7*HasPossibleFullHouse{boolean} 27|438m18 961r36
+33b7*HasFullHouse{boolean} 27|439m18
+34b7*HasFourOfAKind{boolean} 27|401m24 963r58
+35b7*HasTwoOfASuit{boolean} 27|547m27 549m27 552m27 557m27 965r64
+36b7*HasThreeOfASuit{boolean} 27|550m27 553m27 558m27 967r59
+37b7*HasFourOfASuit{boolean} 27|554m27 559m27 971r58
+38b7*HasPossibleFlush{boolean} 27|490m24 555m27 969r60
+39b7*HasFlush{boolean} 27|492m24 500r47 560m27 972r59
+40b7*HasPossibleStraight{boolean} 27|460m24 477m24 976r36
+41b7*HasStraight{boolean} 27|463m24 480m24 500r20 977r62
+42b7*HasStraightFlush{boolean} 27|499m18 502r20 979r60
+43b7*HasRoyalFlush{boolean} 27|501m18 980r64
+46R9*Player_T 51e14
+47a7*Name{string}
+48i7*Position{positive}
+49p7*Hand{16P9}
+50r7*HandReview{22R9}
+54V13*Get_Random{integer} 54>25 27|180s34 772b13 785l8 785t18
+54i25 Max_Value{positive} 27|772b25 774r50
+55V13*Create_Deck{17A9} 55>25 27|153b13 173l8 173t19 258s19
+55e25 Game{5E9} 27|153b26
+56U14*ShuffleDeck 56=26 27|174b14 186l8 186t19 197s7 259s7
+56a26 Deck{17A9} 27|174b27 179r28 180r46 181r34 182m13 182r34 183m13
+57U14*Shuffle 57=22 27|187b14 202l8 202t15 211s7
+57p22 CardStack{16P9} 27|187b23 190r44 194m20 198r28 200m16
+58U14*Reshuffle 58=24 58=50 27|203b14 214l8 214t17 294s13
+58p24 Deck{16P9} 27|204b7 209m7 211m16 294r24
+58p50 DiscardPile{16P9} 27|204b34 209r15 210m14 294r38
+60V13*GetNewDeck{16P9} 60>24 27|20s15 91s21 254b13 262l8 262t18
+60e24 Game{5E9} 27|20r27 254b25 258r32
+62V13*StackDeck{16P9} 62>23 27|216b13 225l8 225t17 260s15
+62a23 Deck{17A9} 27|216b24 220r28 221r23 222r27
+63V13*StackAsArray{17A9} 63>26 27|226b13 239l8 239t20 368s20 382s20 524s20
+. 576s20 874s21 904s24
+63p26 CardStack{16P9} 27|226b27 227r48 232r28 904r38
+64U14*ReverseStack 64=27 27|240b14 251l8 251t20 345s7
+64p27 CardStack{16P9} 27|240b27 245r30 247m19 250m7
+67V13*Deal{19A9} 67>19 67=31 67>56 67>77 27|93s22 263b13 280l8 280t12
+67e19 Game{5E9} 27|264b7
+67p31 Deck{16P9} 27|264b22 275m23
+67i56 PlayerCount{positive} 27|264b49 267r43 274r35
+67i77 Cards_Per_Player{positive} 27|265b7 273r36
+69U14*TestStack 27|7b14 66l8 66t17
+70U14*PlayPoker 70>24 70>46 27|67b14 151l8 151t17
+70i24 PlayerCount{positive} 27|67b25 71r42 93r40
+70i46 HandCount{positive} 27|67b49 93r53 143r41
+71U14*Draw 71=19 71=46 71=81 71>115 27|282b14 305l8 305t12 679s7
+71p19 Deck{16P9} 27|283b7 293r22 294m32 296m45 299r55 300m20 680r10
+71p46 Discard_Pile{16P9} 27|283b41 294m53 297m45 680r31
+71p81 Player_Hand{16P9} 27|284b7 301r56 302m21 681r10
+71i115 Count{integer} 27|284b41 292r22 681r38
+72U14*Discard 72>22 72=43 72=75 27|313s7 318b14 349l8 349t15 659s22
+72i22 CardIndex{positive} 27|314r10 319b7 328r51 334r21 660r25
+72p43 PlayerHand{16P9} 27|314r29 319b29 326r23 330m21 344m39 346m7 347m39
+. 660r52
+72p75 Discard_Pile{16P9} 27|315r10 320b7 335m19 348m39 661r25
+73U14*ChooseAndDiscard 73>31 73=45 27|351b14 355l8 355t24
+73r31 Card{8R9} 27|351b32
+73p45 DiscardPile{16P9} 27|351b47
+75V13*HandleOptionsEvent{7E9} 75=32 75>66 27|105s15 594b13 607l8 607t26
+75p32 Player_Hand{16P9} 27|106r18 595b7 601m51 601r51 604r49
+75b66 IsLivePlayer{boolean} 27|107r18 595b41 600r10
+76V13*HandleBetEvent{natural} 76>28 76>53 27|117s21 608b13 619l8 619t22
+76p28 PlayerHand{16P9} 27|118r24 609b7 614r31 616r29
+76b53 IsLivePlayer{boolean} 27|119r24 609b33 613r10
+77V13*HandleRaiseEvent{natural} 77>30 77>55 27|123s24 620b13 631l8 631t24
+77p30 PlayerHand{16P9} 27|124r27 621b7 626r55 628r53
+77b55 IsLivePlayer{boolean} 27|125r27 621b33 625r10
+78U14*HandleDrawEvent 78=30 78=57 78=92 78>126 78>150 27|139s19 632b14 682l8
+. 682t23
+78p30 Deck{16P9} 27|140r22 633b7 680m25
+78p57 Discard_Pile{16P9} 27|140r47 633b45 661m41 673m66 680m47
+78p92 Player_Hand{16P9} 27|141r22 634b7 646m32 656r57 660m66 673m37 678r49
+. 681m25
+78b126 IsLivePlayer{boolean} 27|142r22 634b45 644r10
+78i150 MaxCardsPerHand{positive} 27|143r22 635b7 678r23
+80V13*GetPlayerChoice{7E9} 80=29 27|601s20 684b13 715l8 715t23
+80p29 PlayerHand{16P9} 27|601r37 684b30 690m26
+81V13*GetRoboChoice{7E9} 81>27 27|604s20 716b13 726l8 726t21
+81p27 PlayerHand{16P9} 27|604r35 716b28 721r36
+82V13*GetPlayerBet{integer} 82>26 27|614s17 727b13 734l8 734t20
+82p26 PlayerHand{16P9} 27|727b27
+83V13*GetRoboBet{integer} 83>24 27|616s17 735b13 742l8 742t18
+83p24 PlayerHand{16P9} 27|735b25
+84V13*GetPlayerRaise{integer} 84>28 27|626s25 743b13 750l8 750t22
+84p28 PlayerHand{16P9} 27|626r41 743b29
+85V13*GetRoboRaise{integer} 85>26 27|628s25 751b13 758l8 758t20
+85p26 PlayerHand{16P9} 27|628r39 751b27
+87U14*RoboDiscard 87=26 87=58 27|306b14 316l8 316t19 673s10
+87p26 PlayerHand{16P9} 27|307b7 314m43 673r23
+87p58 Discard_Pile{16P9} 27|307b40 315m26 673r50
+88V13*GetRoboChosenDiscard{positive} 88>34 27|759b13 764l8 764t28
+88p34 PlayerHand{16P9} 27|759b35
+91V13*GetNewHandReview{22R9} 27|358b13 362l8 362t24
+92U14*InspectHand 92>26 92=54 27|506b14 517l8 517t19 721s7
+92p26 Current_Hand{16P9} 27|507b7 510r25 511r30 721r20
+92r54 HandReview{22R9} 27|507b35 510m39 511m44 512m20 513m27 514m30 515m37
+. 721r48
+93U14*InspectHandSuits 93>31 93=59 27|510s7 518b14 566l8 566t24
+93p31 Current_Hand{16P9} 27|519b7 521r41 524r34
+93r59 HandReview{22R9} 27|519b35 541r35 542m13 543m13 547m16 549m16 550m16
+. 552m16 553m16 554m16 555m16 557m16 558m16 559m16 560m16 565m7
+94U14*InspectHandFaceValues 94>36 94=64 27|511s7 567b14 592l8 592t29
+94p36 Current_Hand{16P9} 27|568b7 570r40 574r21 576r34
+94r64 HandReview{22R9} 27|568b35 574m35 578m10 579r12 582r20 583r13 584r12
+. 586m13 587r15 588m13
+96V13*HasAceInHand{boolean} 96>26 27|364b13 376l8 376t20 656s43
+96p26 Player_Hand{16P9} 27|364b27 366r40 368r34
+97U14*MarkHighCard 97>27 97=55 27|377b14 388l8 388t20 574s7
+97p27 Current_Hand{16P9} 27|378b7 380r40 382r34
+97r55 HandReview{22R9} 27|378b35 384r26 385m13
+98U14*HasXOfAKind 98=26 27|389b14 416l8 416t19 512s7
+98r26 HandReview{22R9} 27|389b27 392r12 394m13 396m13 397m13 399m13 400m13
+. 401m13
+99U14*HasFullHouseOrPossible 99=37 27|417b14 440l8 440t30
+99r37 HandReview{22R9} 27|417b38 423r20 424r19 431r23 432r22 438m7 439m7
+100U14*HasFlushOrPossible 100=33 27|485b14 496l8 496t26 513s7
+100r33 HandReview{22R9} 27|485b34 488r12 490m13 492m13
+101U14*HasStraightOrPossible 101=36 27|441b14 484l8 484t29 514s7
+101r36 HandReview{22R9} 27|441b37 447r9 447r42 449r9 449r37 453r20 460m13
+. 463m13 477m13 480m13
+102U14*HasStraightFlushOrRoyalFlush 102=43 27|497b14 504l8 504t36 515s7
+102r43 HandReview{22R9} 27|497b44 499m7 500r9 500r36 501m7 502r9 503r10 503r43
+104U14*DisplayPlayerHand 104=32 104>65 27|43s7 44s7 46s7 48s7 50s7 52s7 54s7
+. 56s7 58s7 60s7 62s7 64s7 296s13 297s13 344s7 347s7 348s7 646s13 690s7 823b14
+. 831l8 831t25
+104p32 PlayerHand{16P9} 27|43r25 44r25 46r25 48r25 50r25 52r25 54r25 56r25
+. 58r25 60r25 62r25 64r25 296r31 297r31 344r25 347r25 348r25 823b33 830m29
+104a65 Text{string} 27|43r46 44r46 46r46 48r46 50r46 52r46 54r46 56r46 58r46
+. 60r46 62r46 64r46 296r51 297r58 344r50 347r50 348r52 823b66 827r10 828r29
+105U14*EndGame 105>22 105>52 27|149s7 766b14 770l8 770t15
+105a22 Player_Hands{19A9} 27|766b23
+105i52 Pot{integer} 27|766b54
+107V13*GetSuitAsSymbol{string} 107>29 27|787b13 803l8 803t23 916s29 928s32
+107r29 Card{8R9} 27|787b30 790r12
+108V13*GetValueAsCardValue{string} 108>33 27|805b13 821l8 821t27 925s23
+108r33 Card{8R9} 27|805b34 808r12 818r58
+109U14*PrintSummary 109>27 109>45 109>60 27|146s10 832b14 842l8 842t20
+109i27 Round{positive} 27|833b7 838r44
+109i45 Pot{integer} 27|833b25 839r42
+109i60 CallCount{integer} 27|833b40 840r48
+110U14*Print 110>20 110>35 27|332s10 337s13 843b14 853l8 853t13
+110r20 Card{8R9} 27|332r16 337r19 843b21 852r25 852r62
+110i35 Index{integer} 27|332r33 337r36 843b36 846r10 847r30
+111U14*Print 111>20 27|854b14 863l8 863t13
+111a20 PlayerHands{19A9} 27|854b21 857r20 857r41 860r23
+112U14*Print 112=20 112>53 27|21s7 41s7 830s7 861s10 865b14 898l8 898t13
+112p20 CurrentHand{16P9} 27|21r14 41r14 830r14 865b21 866r41 874r35 896m10
+112b53 IsHorizontal{boolean} 27|21r35 41r35 830r41 865b55 875r14
+113U14*PrintCardRow 113>27 113>51 27|891s16 900b14 938l8 938t20
+113p27 TempHand{16P9} 27|891r30 900b28 902r44 904r51
+113i51 StartIndex{integer} 27|891r53 900b52 909r34 910r50 912r49
+114U14*Print 114>20 27|940b14 982l8 982t13
+114r20 HandReview{22R9} 27|940b21 945r41 946r24 949r25 950r25 953r25 954r23
+. 956r53 958r48 961r25 963r47 965r53 967r48 969r49 971r47 972r48 976r25 977r51
+. 979r49 980r53
+115V13*GetSuitName{string} 115>25 27|954s10 983b13 1000l8 1000t19
+115i25 Index{integer} 27|983b26 987r12
+X 27 cardgames.adb
+8P12 Stack1_T<28|6P9[26|13]>
+9P12 Stack2_T<28|6P9[26|13]>
+10p7 Stack1{26|16P9} 26m22 26r22 43m39 43r39 45m23 45r23 46m39 46r39 46r92
+. 49m23 49r23 50m39 50r39 50r92 53m23 53r23 54m39 54r39 54r92 57m23 57r23
+. 58m39 58r39 58r92 61m23 61r23 62m39 62r39 62r92
+11p7 Stack2{26|16P9} 28m22 28r22 44m39 44r39 47m12 47r12 48m39 48r39 48r93
+. 51m12 51r12 52m39 52r39 52r93 55m12 55r12 56m39 56r39 56r93 59m12 59r12
+. 60m39 60r39 60r93 63m12 63r12 64m39 64r39 64r93
+13p7 Deck{26|16P9} 20m7 21m29 21r29 23m27 23r27 41m29 41r29
+14r7 TempCard{26|8R9} 23m10 26r30 28r30 45m7 47r19 49m7 51r19 53m7 55r19
+. 57m7 59r19 61m7 63r19
+22i11 Index{integer} 24r15
+68e7 Game{26|5E9} 90m7 91r33 93r28
+69p7 Deck{26|16P9} 91m7 93m34 93r34 140m41 140r41
+70p7 DiscardPile{26|16P9} 140m63 140r63
+71a7 PlayerHands{26|19A9} 93m7 100r23 106m34 106r34 118r40 124r43 141m41
+. 141r41 149r16
+72p7 TempHand{26|16P9}
+74b7 IsLivePlayer{boolean} 101m13 107r34 119r40 125r43
+76i7 LivePlayerPositionIndex{positive} 101r38 142r50
+77i7 CallCount{integer} 99m10 131m19 131r32 132r22 146r36
+78i7 CurrentBet{integer} 116m19 120r22 127r35 129r31
+79i7 TotalBet{integer} 102m13 120r35 120r48 129m19
+80i7 Pot{integer} 97m10 121m22 122r24 127m22 127r29 146r31 149r29
+81i7 Round{positive} 98m10 146r24
+82e7 Choice{26|7E9} 104m13 109r18
+87b7 IsGameOver{boolean} 89m7 96r17 111m19 133m22
+100i14 Index{integer} 101r30 106r47 118r53 124r56 141r54 142r42
+154a7 Deck{26|17A9} 167m13 172r14
+155i7 Deck_Index{positive} 163m7 167r19 168m13 168r34
+156r7 Card{26|8R9} 166m13 167r34
+164e11 Suit_Item{26|6E9} 166r43
+165i14 Card_Index{integer} 166r63
+175i7 Rand{integer} 180m13 182r40 183r19
+176r7 Temp_Card{26|8R9} 181m13 183r34
+178i11 Index{integer}
+179i14 Deck_Index{integer} 181r40 182r19
+188r7 TempCard{26|8R9} 194m38 195r35
+190a7 TempCardArray{26|17A9} 193r20 193r43 195m10 197m20 197r20 199r19
+191b7 DidEmpty{boolean} 198m7
+193i11 Index{integer} 195r25
+199r11 Card=199:19{26|8R9} 200r27
+217p7 DeckStack{26|16P9} 222m16 222r16 224r14
+218r7 Temp_Card{26|8R9} 221m10
+220i11 Index{integer} 221r29 222r33
+227a7 DeckArray{26|17A9} 236m10 238r14
+228p7 Temp_Stack{26|16P9} 232m7 233r36 235m20 235r20
+229r7 Temp_Card{26|8R9} 235m40 236r31
+230i7 Card_Stack_Length{integer} 233m7 234r33
+234i11 Index{integer} 236r21
+241p7 NewStack{26|16P9} 248m20 248r20 250r20
+242i7 Stack_Length{integer} 245m7 246r23
+243r7 Temp_Card{26|8R9} 247m38 248r38
+246i11 Index{integer}
+255a7 DeckInit{26|17A9} 258m7 259m20 259r20 260r26
+256p7 Deck{26|16P9} 260m7 261r14
+267a7 Player_Hands{26|19A9} 276m19 276r19 279r14
+268i7 Deck_Index{positive} 272m7
+269r7 Temp_Card{26|8R9} 275m37 276r48
+273i11 Deal_Round_Index{integer}
+274i14 Player_Index{integer} 276r33
+287r7 DrawnCard{26|8R9} 300m34 302r42
+288i7 Index{integer} 291m7 292r13 303m10 303r19
+309i7 CardIndex{positive} 312m7
+322r7 TestCard{26|8R9} 330m40 332r24 335r33 337r27 340r35
+323p7 New_PlayerHand{26|16P9} 340m19 340r19 345m20 345r20 346r21
+324i7 Index{integer} 326m7 327r54 329r13 334r13 342m10 342r19
+359r7 HandReview{26|22R9} 361r14
+365b7 Success{boolean} 371m13 375r14
+366a7 TempArray{26|17A9} 368m7 369r19
+369r11 Card=369:19{26|8R9} 370r13
+380a7 TempArray{26|17A9} 382m7 383r19
+383r11 Card=383:19{26|8R9} 384r13 385r36
+418b7 HasTwo{boolean} 434m16 439r42
+419b7 HasThree{boolean} 426m13 430r10 438r42 439r53
+420i7 Count{integer} 424m10 425r13 432m13 433r16
+421i7 ThreeOfAKindIndex{integer} 427m13 433r40
+423i11 Index{integer} 424r47 427r34
+431i14 Index{integer} 432r50 433r31
+442i7 ContiguousCount{integer} 452m7 455m13 455r32 457m13 459r13 462r13 469m7
+. 472m13 472r32 474m13 476r13 479r13
+443a7 FaceValueReview_Ext{26|21A9} 446m7 446r33 448m7 448r28 470r20
+453i11 Value=453:11{integer} 454r13
+470i11 Value=470:20{integer} 471r13
+521a7 This_Hand{26|17A9} 524m7 525r19
+522a7 SuitReview{26|20A9} 528m16 528r34 530m16 530r34 532m16 532r34 534m16
+. 534r34 536m16 536r34 540r20 541r13 542r53 545r15 565r32
+525r11 Card=525:19{26|8R9} 526r15
+540i11 Index{integer} 541r25 542r65 543r53 545r27
+570a7 This_Hand{26|17A9} 576m7 577r20 578r38 579r40
+577i11 Index{integer} 578r49 579r51
+582i11 Index{integer} 583r41 587r43 588r48
+598e7 Choice{26|7E9} 601m10 604m10 606r14
+611i7 Bet{natural} 614m10 616m10 618r14
+623i7 RaiseAmount{integer} 626m10 628m10 630r14
+637a7 Prompt{string} 647r18
+638e7 Input{character} 648m18 649r18 652r38
+639a7 InputString{string} 652m19 653r53
+640i7 DiscardCount{integer} 655r22 656r22 662m22 662r38 678m7 681r47
+641b7 IsDone{boolean} 645r20 667m19 669m19
+642i7 CardIndex{positive} 653m19 654r55 660r41
+685a7 Prompt{string} 693r27
+687e7 UserChoice{character} 691m7 692r13 694m27 695r15 711m16
+688e7 Choice{26|7E9} 697m16 699m16 701m16 703m16 705m16 707m16 709m16 714r14
+717e7 GameChoice{26|7E9} 723m7 725r14
+718r7 HandReview{26|22R9} 721m62 721r62
+728a7 Prompt{string} 731r12
+729i7 BetAmount{integer} 732m32 733r14
+736a7 Prompt{string} 740r17
+737i7 BetAmount{integer} 740r41 741r14
+744a7 Prompt{string} 747r12
+745i7 RaiseAmount{integer} 748m12 749r14
+752a7 Prompt{string} 756r17
+753i7 RaiseAmount{integer} 756r41 757r14
+760i7 CardIndex{positive} 762m7 763r14
+774I15 Random_Range{integer} 776r54 780r11
+776K15 R[11|44] 777r11
+779r7 G{11|50R9[776]} 782r14 783r20
+780i7 X{774I15} 783m7 784r44
+788a7 Symbol{string} 792m13 794m13 796m13 798m13 800m13 802r14
+806r7 Value{18|88R9} 810m13 812m13 814m13 816m13 818m13 820r25
+835a7 Separator{string} 837r17 841r17
+855p7 Temp_Hand{26|16P9} 860m10 861m17 861r17
+857i11 Index{integer} 859r53 860r36
+866a7 PlayerHand{26|17A9} 874m7 877r22 884r24 888r43 889r45
+867i7 CardIndex{integer} 876m10 879r31 881m13 881r26 885m10 891r67 893m16
+. 893r29
+868i7 Stack_Size{integer} 884m10 887r28 890r44
+869p7 TempStack{26|16P9} 886m16 886r16 888m24 888r24 891r42 892m28 892r28
+870p7 ReturnStack{26|16P9} 872m13 872r13 889m24 889r24 896r25
+877r14 Card=877:22{26|8R9} 879r66 880r36
+887i14 Index{integer} 888r55 889r57 890r16 890r36
+901i7 Temp_Int{integer} 919m19 920r22
+902a7 TempHandArray{26|17A9} 904m7 906r27 906r50 916r46 919r31 925r44 928r49
+905i11 LineIndex{integer} 907r18
+906i14 CardIndex{integer} 909r22 910r63 912r62 916r61 919r46 925r59 928r64
+985r7 Name{18|88R9} 989m13 991m13 993m13 995m13 997m13 999r25
+X 28 generic_stack.ads
+4+9 Element_Type 26|13r43
+5k9*Generic_Stack 26|1w6 13r29 28|27e18
+6P9*Stack 26|16r38[13] 27|8r38[26|13] 9r38[26|13]
+7U14*Push 27|26s16[26|13] 28s16[26|13] 47s7[26|13] 51s7[26|13] 55s7[26|13]
+. 59s7[26|13] 63s7[26|13] 200s10[26|13] 222s10[26|13] 248s10[26|13] 276s13[26|13]
+. 302s10[26|13] 335s13[26|13] 340s13[26|13] 888s13[26|13] 889s13[26|13]
+7p20 S{26|16P9} 27|248r15[26|13] 302r16[26|13] 888r19[26|13] 889r19[26|13]
+7r38 Item{26|8R9} 27|248r30[26|13] 302r34[26|13] 888r35[26|13] 889r37[26|13]
+8V13*Pop{26|8R9} 27|23s22[26|13] 45s19[26|13] 49s19[26|13] 53s19[26|13] 57s19[26|13]
+. 61s19[26|13]
+9U14*Pop 27|194s10[26|13] 235s10[26|13] 247s10[26|13] 275s13[26|13] 300s10[26|13]
+. 330s10[26|13]
+9p19 S{26|16P9} 27|194r15[26|13] 235r15[26|13] 247r14[26|13] 275r18[26|13]
+. 300r15[26|13] 330r15[26|13]
+9r37 Item{26|8R9} 27|194r30[26|13] 235r32[26|13] 247r30[26|13] 275r29[26|13]
+. 300r26[26|13] 330r32[26|13]
+11V13*IsEmpty{boolean} 27|198s19[26|13] 293s13[26|13]
+12V13*Length{natural} 27|46s85[26|13] 48s86[26|13] 50s85[26|13] 52s86[26|13]
+. 54s85[26|13] 56s86[26|13] 58s85[26|13] 60s86[26|13] 62s85[26|13] 64s86[26|13]
+. 190s36[26|13] 227s40[26|13] 233s28[26|13] 245s23[26|13] 299s48[26|13] 301s49[26|13]
+. 326s16[26|13] 366s32[26|13] 380s32[26|13] 521s33[26|13] 570s32[26|13] 678s41[26|13]
+. 866s33[26|13] 902s36[26|13]
+13U14*Clear 27|210s7[26|13] 872s7[26|13] 886s10[26|13] 892s16[26|13]
+13p21 S{26|16P9} 27|892r23[26|13]
+X 30 interfac.ads
+79M9*Unsigned_32
+82M9*Unsigned_64
+X 32 system.ads
+67M9*Address
+X 48 s-memory.ads
+53V13*Alloc{32|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{32|67M9} 105i<c,__gnat_realloc>22
+X 50 s-rannum.ads
+77V13*Random{30|79M9} 51|222i21
+78V13*Random{30|82M9} 51|222i21
+X 57 s-stalib.adb
+89U14 Break_Start 90i<c,__gnat_break_start>22
+

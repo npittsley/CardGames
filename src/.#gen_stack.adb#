@@ -1,0 +1,3 @@
+package body gen_stack is
+   Stack: array(1..Max) of Element_Type;
+end gen_stack;

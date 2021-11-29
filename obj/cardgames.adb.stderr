@@ -1,0 +1,16 @@
+cardgames.adb:20:15: expected private type "CardStack_T" defined at cardgames.ads:18
+cardgames.adb:20:15: found private type "Stack" defined at generic_stack.ads:6, instance at cardgames.ads:15
+cardgames.adb:92:21: expected private type "CardStack_T" defined at cardgames.ads:18
+cardgames.adb:92:21: found private type "Stack" defined at generic_stack.ads:6, instance at cardgames.ads:15
+cardgames.adb:97:19: "GetName" is undefined
+cardgames.adb:220:13: not type conformant with declaration at cardgames.ads:67
+cardgames.adb:220:13: return type does not match
+cardgames.adb:220:46: subtype mark required in this context
+cardgames.adb:220:46: found "DeckStack" declared at cardgames.ads:15
+cardgames.adb:221:19: object "DeckStack" cannot be used before end of its declaration
+cardgames.adb:258:13: not type conformant with declaration at cardgames.ads:65
+cardgames.adb:258:13: return type does not match
+cardgames.adb:258:47: subtype mark required in this context
+cardgames.adb:258:47: found "DeckStack" declared at cardgames.ads:15
+cardgames.adb:264:15: no candidate interpretations match the actuals:
+cardgames.adb:264:15: context requires function call, found procedure name

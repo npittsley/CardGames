@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\e407621\CardGames\default.gpr
+20211115180406 bb840aecbc49a77a345819791f7dc3a9
+[BOUND OBJECT FILES]
+C:\Users\e407621\CardGames\obj\generic_stack.o
+C:\Users\e407621\CardGames\obj\cardgames.o
+C:\Users\e407621\CardGames\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\e407621\CardGames\obj\
+-LC:\Users\e407621\CardGames\obj\
+-LC:/gnatpro/21.1/lib/gcc/i686-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+C:/gnatpro/21.1/lib/gcc/i686-pc-mingw32/9.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000
